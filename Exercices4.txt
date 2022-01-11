@@ -1,0 +1,90 @@
+Exercice 4.1 
+
+Si tutu <= toto+4 ET tata <> "ok" alors
+ tutu <- tutu-1
+sinon 
+ tutu <- tutu+1
+
+Exercice 4.2 
+
+Ecrire : Donnez l'heure + minutes 
+ lire : h , m
+m <- m+1
+Si m = 60 alors 
+ m <-0
+ h <- h+1 
+FinSi 
+ Si h=24 alors 
+h =0 
+finsi 
+Ecrire "dans une minute il sera " , h , "heures" ,m, "minutes"
+fin
+
+Exercice 4.3 
+
+ Ecrire : Donnez l'heure + minutes + secondes 
+lire : h , m , s 
+ s <- s+1 
+Si s = 60 alors 
+ s <- 0 
+ m <- m+1
+FinSi
+ Si m=60 alors 
+ m <- 0 
+ h <- h+1
+finSi
+ Si h=24 alors 
+ h<- 0 
+finsi 
+ecrire "Dans une seconde il sera ", h" heures" , m "minutes" , s "secondes" 
+
+Exercice 4.4 
+
+Ecrire: Nombre de photocopie 
+lire : n 
+Si n<= 10 alors 
+ p <- 0.10*n
+sinonSi n<=30
+ p<- 10*0.1 + (n -10)*0.09
+sinon 
+ p<- 10*0.1 + 2*0.09 + (n-30) * 0.08
+finSi 
+ecrire :"Vous payerez" , p 
+fin
+
+Exercice 4.5 
+
+Ecrire "entre le sexe (M/F) =" 
+lire sex
+ecrire "entre l'age" 
+lire age 
+c1< - sex ="M" ET age > 20 
+c2 <- sex ="F" ET ( age > 18 ET age <35 ) 
+Si C1 ou C2 alors 
+ ecrire "imposable" 
+Sinon 
+ Ecrire"Non imposable" 
+FinSi
+Fin
+
+Exercice 4.6 
+
+Var A , B , C ,D en Numerique
+Var C1 , C2 , C3 , C4 en booléen 
+debut 
+C1 <- A > 50 
+C2 <- B > 50 ou C > 50 ou D > 50 
+C3 <- A >= B et B >= C et A >= D 
+C4 <- A >= 12.5 
+Si C1 alors 
+ ecrire : "Elu au premier tour"
+SinonSi C2 ou Non(C4)
+ ecrire : "Eliminer"
+SinonSi C3 alors
+ ecrire "Ballotage favorable"
+Sinon 
+ ecrire "Ballotage défavorable"
+
+Exercice 4.7 
+
+ 

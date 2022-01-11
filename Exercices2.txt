@@ -1,0 +1,24 @@
+Exercice 2.1 
+462
+
+Exercice 2.2 
+
+Ecrire : "Entrez un nomrbe
+Lire: Nombre 
+Ecrire <- Nombre*Nombre
+
+Exercice 2.3 
+Ecrire "Prix Hors taxes="
+lire: PrixHt
+Ecrire "Nombre d'article="
+lire: NmbreArticle
+Ecrire "Entre le taux de Tva"
+lire: TVA
+pttc <- NmbreArticle * PrixHt *(1+TVA)
+
+Exercice 2.4 
+Lire : Belle marquise 
+Lire : Vos beaux yeux 
+Lire:  Me font 
+Lire: Mourir d'amour 
+Ecrire: Lire *4

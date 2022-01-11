@@ -1,0 +1,64 @@
+Exercice 3.1 
+
+Ecrire "Entrez un nombre
+lire n
+Si n > 0 
+Ecrire "Nombre Positif"
+Sinon 
+Ecrire "Nombre Negatif"
+Finsi
+
+Exercice 3.2 
+
+Ecrire : Entrez deux nombre 
+lire : n , m 
+Si (m > 0 ET n > 0) OU (m<0 ET n<0) Alors 
+ Ecrire "Leurs produits est positif"
+Sinon 
+ Ecrire "leurs produits est negatif"
+Finsi 
+fin
+
+Exercice 3.3
+Ecrire : rentre 3 nom 
+lire : n , m , o
+Si a < b Et b < c alors 
+ ecrire "Ces noms sont classé alphabetiquement"
+sinon 
+ Ecrire " Ces noms ne sont pas classé"
+finsi
+
+Exercice 3.4 
+Ecrire : rentre un nombre 
+lire : n 
+ Si n < 0 
+   alors ecrire : "nombre negatif" 
+ SinonSi n=0
+    alors ecrire :"Ce nombre est nul"
+ Sinon ecrire : "le nombre est positif"
+
+Exercice 3.5
+
+Ecrire : Rentre un nombre 
+lire : n , m 
+Si n = 0 OU m = 0 
+ alors ecrire : "nombres est nul"
+SinonSi (m <0 ET n < 0) OU (m > 0 ET n > 0) 
+ alors ecrire :"ces nombre sont negatif"
+Sinon ecrire :"les nombre sont positif"
+ 
+Exercice 3.6 
+ Ecrire :"rentre un age"
+lire : a 
+Si a = 6
+ alors ecrire "Poussin" 
+sinonSi a >= 8
+ Alors ecrire "Pupille"
+sinonSi a >= 10
+ Alors ecrire "Minime"
+sinonSi a >= 12 
+ecrire Cadet
+finsi 
+fin
+
+Oui on peu 
